@@ -145,7 +145,7 @@ PlasmaCore.Dialog {
 
         return Qt.point(x, y);
         */
-        var screenAvail = Screen.availableGeometry;//kicker.availableScreenRect;
+        var screenAvail = kicker.availableScreenRect;
         var screenGeom = kicker.screenGeometry;
         var screen = Qt.rect(screenAvail.x + screenGeom.x,
                              screenAvail.y + screenGeom.y,
